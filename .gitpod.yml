@@ -2,7 +2,7 @@
 tasks:
   - command: go run ignoresigterm.go > output.txt
 
-terminationGracePeriodSeconds: 100
+# terminationGracePeriodSeconds: 100
 
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
 ports:
